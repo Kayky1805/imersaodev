@@ -1,5 +1,8 @@
 function pesquisar() {
-let section = document.getElementById("resultados-pesquisa")
+let section = document.getElementById("resultados-pesquisa");
+
+let campoPesquisa = document.getElementById("campo-pesquisa")
+console.log(campoPesquisa)
 
 let resultados = ""
 
@@ -15,7 +18,7 @@ for (let dado of dados) {
             </p>
           </div>
 `
-}
+};
 
 section.innerHTML = resultados
 console.log("foipourra")
